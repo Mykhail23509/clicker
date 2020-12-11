@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,300;1,900&display=swap");
+
+.test {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(154, 144, 211);
+  border: 5px solid rgb(144, 130, 224);
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-style: initial;
+  font-size: 50px;
+  color: gold;
+  margin-top: 10px;
+}
+
+.score {
+  color: black;
+}
+
+.button1 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(0, 78, 167);
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 128, 187),
+    rgb(0, 151, 221)
+  );
+  margin-left: 150px;
+  margin-top: 250px;
+  outline: none;
+  position: fixed;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Piazzolla;
+}
+
+.button1 {
+  transition: width 0.4s, height 0.4s;
+}
+
+.button1:hover {
+  width: 220px;
+  height: 220px;
+}
