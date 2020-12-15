@@ -1,8 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,300;1,900&display=swap");
 @import url("./off-anims.css");
-.test {
-  width: 75vh;
-  height: 75vh;
+
+body {
+  background: rgb(53, 53, 53);
+  margin: 0;
+}
+
+.mainContentContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mainGame {
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(154, 144, 211);
+  border: 5px solid rgb(144, 130, 224);
+  color: gold;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-style: initial;
+  font-size: 50px;
+  margin-top: 10px;
+}
+.mainGame {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.score {
+  color: black;
+}
+
+.button-clicker {
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(0, 78, 167);
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 128, 187),
+    rgb(0, 151, 221)
+  );
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Piazzolla;
+}
+
+.shopContainer {
+  width: 100%;
+  height: 500px;
   background-color: rgb(154, 144, 211);
   border: 5px solid rgb(144, 130, 224);
   border-radius: 15px;
@@ -12,30 +63,8 @@
   font-size: 50px;
   color: gold;
   margin-top: 10px;
-}
-
-.score {
-  color: black;
-}
-
-.button-clicker {
-  width: 29vh;
-  height: 29vh;
-  border: 2px solid rgb(0, 78, 167);
-  border-radius: 10px;
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 128, 187),
-    rgb(0, 151, 221)
-  );
-  margin-left: 150px;
-  margin-top: 250px;
-  outline: none;
-  position: absolute;
-  font-weight: bold;
-  font-size: 50px;
-  font-family: Piazzolla;
-  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 /* settings */
