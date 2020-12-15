@@ -5,15 +5,16 @@ const appDataBase = {
 
 // Click system
 
-const a = document.createElement('div');
+const clickerClick = document.querySelector('.score-point');
 function onButtonClick1() {
     appDataBase.numbeOfClicks += 1;
-    a.innerHTML = appDataBase.numbeOfClicks;
+    clickerClick.innerHTML = appDataBase.numbeOfClicks;
 }
-document.querySelector('.test').appendChild(a);
+document.querySelector('.test').appendChild(clickerClick);
 
-
-
-
-
-
+// Achieve
+function AchieveFirst(){
+    if(appDataBase.numbeOfClicks >= 10) {
+        alert('You master!');
+    }
+}

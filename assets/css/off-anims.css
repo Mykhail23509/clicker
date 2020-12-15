@@ -1,0 +1,25 @@
+.button1 {
+  transition: width 0.4s, height 0.4s;
+}
+
+.button1:hover {
+  width: 220px;
+  height: 220px;
+}
+
+.settingsOffAnims {
+  width: 10vh;
+  height: 5vh;
+  background-color: lawngreen;
+  border-radius: 5px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.settingsOffAnimsOn {
+  background-color: lawngreen;
+}
+
+.settingsOffAnimsOff {
+  background-color: tomato;
+}
